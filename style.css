@@ -59,6 +59,9 @@ form button:hover {
     transition: all 0.5s ease;
 
 }
+.filter-todo{
+    padding: 1rem;
+}
 .todo li {
     flex: 1;
 
@@ -85,11 +88,13 @@ form button:hover {
     opacity: 0.5;
 }
 .fall {
-    transform: translateY(8rem) rotate(20deg);
+    transform: translateY(10rem) rotate(20deg);
     opacity: 0;
 }
 
 select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
     appearance: none;
     outline: none;
     border: none;
@@ -114,6 +119,7 @@ select{
     right: 0;
     padding: 1rem;
     pointer-events: none;
+    cursor: pointer;
 }
 .select:hover::after{
     background: rgb(228, 228, 228);
